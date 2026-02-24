@@ -54,4 +54,4 @@ jobs:
       - name: Ajouter src au PYTHONPATH
         run: export PYTHONPATH=$PYTHONPATH:./src
       - name: Lancer les tests
-        run: pytests tests/
+        run: pytest tests/
